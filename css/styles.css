@@ -1,0 +1,128 @@
+/* Color Scheme: 
+Red: #D2001A
+Yellow: #FFDE00
+Beige: #FFFAE7
+Ovwhite: #EFEFEF */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #efefef;
+  margin: 3rem 5%;
+  font-family: "Markazi Text", serif;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+p {
+  font-size: 1.5rem;
+}
+header > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+
+  background-color: #ffde00;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1rem;
+  margin-top: 2rem;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #d2001a;
+  font-size: 2rem;
+}
+
+.promotion {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  margin-top: 2rem;
+  background-color: #fffae7;
+  color: white;
+  font-weight: 800;
+}
+
+.promotion img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.promotion h1 {
+  position: absolute;
+  bottom: 9rem;
+  left: 2rem;
+}
+
+.promotion p {
+  position: absolute;
+  bottom: 5rem;
+  left: 2rem;
+}
+.cards-container {
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+}
+
+.card {
+  background-color: #fffae7;
+  margin-left: 1rem;
+  width: 30%;
+  color: #ffde00;
+  text-align: center;
+  text-shadow: 1px 1px #d2001a;
+}
+
+.card img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  height: 60vh;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 10rem;
+  padding: 1rem 0;
+}
+
+footer div {
+  width: 25%;
+}
+
+footer img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
