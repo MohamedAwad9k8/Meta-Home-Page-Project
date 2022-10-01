@@ -54,6 +54,10 @@ nav a {
   font-size: 2rem;
 }
 
+nav a:hover {
+  color: black;
+}
+
 .promotion {
   position: relative;
   margin-left: auto;
@@ -72,17 +76,23 @@ nav a {
   width: 100%;
 }
 
-.promotion h1 {
+.promotion div {
   position: absolute;
-  bottom: 9rem;
-  left: 2rem;
+  bottom: 4rem;
+  padding: 0 16rem;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
-.promotion p {
-  position: absolute;
-  bottom: 5rem;
-  left: 2rem;
+.promotion:hover {
+  transform: scale(1.02);
+  transition: 1s;
 }
+
+.promotion:hover > div {
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: 1s;
+}
+
 .cards-container {
   display: flex;
   justify-content: space-around;
@@ -95,9 +105,12 @@ nav a {
   background-color: #fffae7;
   margin-left: 1rem;
   width: 30%;
-  color: #ffde00;
+  color: black;
   text-align: center;
-  text-shadow: 1px 1px #d2001a;
+  text-shadow: 2px 2px #efefef;
+  border-radius: 5%;
+  padding: 1rem;
+  font-weight: 700;
 }
 
 .card img {
@@ -106,8 +119,13 @@ nav a {
   margin-right: auto;
   width: 95%;
   height: 60vh;
+  padding: 1rem 0;
 }
 
+.card:hover {
+  box-shadow: 5px 0px 25px grey;
+  cursor: pointer;
+}
 footer {
   display: flex;
   justify-content: space-between;
